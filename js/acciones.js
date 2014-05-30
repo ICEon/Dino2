@@ -3,17 +3,14 @@
 
     $('#logo img').tap(function(e){	
 
-var myaudio = new Media('/audio/roar.mp3');
-function playStream() {
-  try {
-   //alert ("ffff");
+var myaudio = new Media('audio/roar.mp3');
+
+ 
+   alert ("ffff");
 
     myaudio.id = 'playerMyAdio';
     myaudio.play();
-  } catch (e) {
-    alert('no audio support!');
-  } 
-}
+  
 
 
 //	 $("#roar")[0].load(e);
