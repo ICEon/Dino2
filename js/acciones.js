@@ -10,7 +10,7 @@
 
     $('#vista img').tap(function(e){	
 		
-	 $.mobile.navigate( "#principal" );
+	 $.mobile.navigate( "demo.html" );
 	});
 	
 	$('#B_Rex').tap(function (e) {
