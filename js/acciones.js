@@ -3,7 +3,7 @@
 
     $('#logo img').tap(function(e){	
 
-var myaudio = new Media('audio/roar.mp3');
+var myaudio = new Audio('audio/roar.mp3');
 
  
    alert ("ffff");
