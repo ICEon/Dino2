@@ -2,6 +2,8 @@
 	$(document).ready(function(e){
 
     $('#logo img').tap(function(e){	
+
+	 $("#roar")[0].load(e);
 	 $("#roar")[0].play();
     $('#logo img').toggleClass('clicked');
 	$('#vista img').toggleClass('clicked');
